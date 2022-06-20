@@ -1,0 +1,9 @@
+name = twitter
+connector.class = com.github.jcustenborder.kafka.connect.twitter.TwitterSourceConnector
+twitter.oauth.consumerKey = zuyhYF7oUyXsknweQkrC7Yl8G
+twitter.oauth.consumerSecret = FSoo6UvWWfLwHV1csWFccvj5WA5yObpuNVdyK0o8aekbCUNiCI
+twitter.oauth.accessToken = 1333488565242748935-xGzHocziLIFWqLkSGv6ggDLM5zZMBr
+twitter.oauth.accessTokenSecret = sysUHrgIASt8wU7Bd0hrgnVs9kbsy50WIdG1QFfXCqDki
+filter.keywords = lula,bolsonaro
+kafka.status.topic = tweets
+process.deletes = false
